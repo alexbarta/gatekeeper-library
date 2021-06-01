@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: nginx
-      image: docker.io/nginx
+      image: docker.io/busybox
       resources:
         limits:
           cpu: "100m"
