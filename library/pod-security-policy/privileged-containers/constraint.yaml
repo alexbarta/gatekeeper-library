@@ -9,4 +9,7 @@ spec:
     kinds:
       - apiGroups: [""]
         kinds: ["Pod"]
-    excludedNamespaces: ["kube-system"]
+    excludedNamespaces: ["kd-apps", "kd-mlops", "kube-node-lease", "kube-system", "kubernetes-dashboard", "hpe-csi",
+  "default", "kube-public", "hpecp-bootstrap", "mapr-external-info", "hpe-externalclusterinfo",
+  "spark-operator", "hpe-system", "hpe-nodesvc", "hpe-secure", "hpe-templates-compute", "hpe-ldap",
+  "kubeflow-operator", "istio-system", "kiali-operator", "gatekeeper-system","argocd", "hpecp-falco"]
