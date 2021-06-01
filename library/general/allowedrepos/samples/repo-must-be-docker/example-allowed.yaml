@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-allowed
+  name: busybox-allowed
 spec:
   containers:
-    - name: nginx
+    - name: busybox
       image: docker.io/busybox
       resources:
         limits:
