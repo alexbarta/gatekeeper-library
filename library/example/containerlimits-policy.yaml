@@ -14,7 +14,7 @@ spec:
     - "default"
   parameters:
     cpu: "200m"
-    memory: "1Gi"
+    memory: "3Gi"
 ---
 apiVersion: templates.gatekeeper.sh/v1beta1
 kind: ConstraintTemplate
